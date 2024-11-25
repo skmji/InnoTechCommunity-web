@@ -1,0 +1,145 @@
+.myprimary{
+    background: #1565c0 !important;
+    color: white;
+    
+}
+.mytext{
+    color:black !important;
+}
+.mylight{
+    background: #F0F2F5;
+}
+.mylight2{
+    background: #FFFFFF;
+}
+
+
+ .dropdown-toggle::after {
+      display: none !important; /* Hides the default dropdown arrow */
+    }
+
+    .btn-drop {
+      background: red;
+      color: inherit;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      border-radius:50%
+    }
+    
+    .no-caret::after {
+    display: none !important; /* Hides the default dropdown caret */
+}
+
+
+.mygray{
+     background: #eeeeee !important;
+    
+    
+}
+
+
+.crayons-story__title {
+    color: var(--card-color);
+    line-height: var(--lh-tight);
+    font-size: var(--title-font-size);
+    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    margin-bottom: var(--su-1)
+}
+
+
+
+/*my heat css*/
+
+        /* Initial heart icon */
+.like-thumb {
+    color: gray;
+    transition: all 0.3s ease;
+}
+
+/* Heart bounce on hover */
+.like-thumb:not(:hover) {
+    animation: heart-bounce 0.6s forwards;
+}
+
+/* When the heart is liked */
+.liked {
+    color: red;
+    animation: heart-bounce 0.6s forwards;
+}
+
+/* Heart bounce animation */
+@keyframes heart-bounce {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+     
+/*my heart css end*/
+
+
+
+
+ <!--for post-box-->
+        
+        .custom-card {
+            /*max-width: 500px;*/
+            margin-top: 80px;
+            
+            /*margin: 20px auto;*/
+        }
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .custom-input {
+            margin-left: 20px;
+            border-radius: 50px;
+            padding: 10px 20px;
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+        .action-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 10px;
+        }
+        .action-buttons button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            color: #007bff;
+        }
+        .action-buttons button i {
+            font-size: 20px;
+        }
+    /*post box end*/
+    
+    
+    
+    .post-body{
+        margin-top: 80px;
+    }
+    
+    .custom-nav{
+        margin-right: 50px;
+    }
+    
+    
+    .no-under{
+        text-decoration: none;
+    }
