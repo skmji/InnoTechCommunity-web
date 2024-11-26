@@ -3,3 +3,5 @@
 *.class
 *.war
 /lib/*.jar
+!dist/InnotechCommunity.war
+
